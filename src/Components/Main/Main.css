@@ -156,24 +156,27 @@
     font-weight: 300;
     line-height: 1.8;
 }
-@media (max-width:600px) {
-    .main-bottom inut{
+/* Media query for smartphones */
+@media (max-width: 600px) {
+    .main-bottom input {
         flex: none;
         width: 150px;
-
     }
-    .main-bottom img{
+
+    .main-bottom img {
         width: 20px;
     }
-    .search-box{
+
+    .search-box {
         padding: 5px 10px;
     }
-    .search-box div{
-        gap:5px
+
+    .search-box div {
+        gap: 5px;
     }
 }
-/* Media queries for medium-sized screens */
 
+/* Media query for tablets */
 @media (min-width: 601px) and (max-width: 900px) {
     .main-container {
         max-width: 600px;
@@ -182,10 +185,14 @@
     .main .greet {
         font-size: 36px;
     }
+
+    /* Adjust icon sizes for medium-sized screens */
+    .main-bottom img {
+        width: 25px;
+    }
 }
 
-/* Media queries for larger screens */
-
+/* Media query for desktops and larger screens */
 @media (min-width: 901px) {
     .main-container {
         max-width: 1200px;
@@ -197,5 +204,10 @@
     
     .main .cards {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+
+    /* Adjust icon sizes for larger screens */
+    .main-bottom img {
+        width: 30px;
     }
 }

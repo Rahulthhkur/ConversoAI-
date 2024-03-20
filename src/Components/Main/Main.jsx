@@ -93,7 +93,7 @@ const Main = () => {
           </div>
           {error && <p className="error">Error: {error}</p>} {/* Display errors if encountered */}
           <p className="bottom-info">
-          ConversoAI may display inaccurate info, including about people, so double-check its responses. Your privacy and ConversoAI 
+          ConversoAI may display inaccurate info, including about people, so double-check its responses.Developed by Rahul & Team. 
           </p>
         </div>
       </div>
