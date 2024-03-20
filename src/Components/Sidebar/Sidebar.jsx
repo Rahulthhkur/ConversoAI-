@@ -13,6 +13,11 @@ const sidebar = () => {
       <div className='sidebar'>
         <div className="top">
         <img onClick={()=> setExtended(prev=>!prev)} className='menu' src={assets.menu_icon} alt="" />
+        <div className='button-container'>
+        <a href="https://rahulthhkur.github.io/profile.github.io/" className="developers-link" target="_blank" rel="noopener noreferrer">
+      <button className="developers-button">Developers</button>
+      </a>
+         </div>
         <div className='new-chat'>
           <img  src={assets.plus_icon} alt="" />
           {extended? <p>New Chat</p>:null}

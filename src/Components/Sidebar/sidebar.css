@@ -63,3 +63,22 @@
         display: none;
     }
 }
+.button-container {
+    margin-top: 30px; /* Adjust the spacing as needed */
+    
+  }
+  
+  .developers-button {
+    background-color: gray; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    padding: 12px 20px; /* Add padding */
+    border-radius: 20px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .developers-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  
